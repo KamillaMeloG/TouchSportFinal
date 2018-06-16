@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		811A581D20A71AA500C0021C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A581C20A71AA500C0021C /* AppDelegate.swift */; };
+		811A581F20A71AA500C0021C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A581E20A71AA500C0021C /* ViewController.swift */; };
+		811A582220A71AA500C0021C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811A582020A71AA500C0021C /* Main.storyboard */; };
+		811A582520A71AA600C0021C /* TouchSport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 811A582320A71AA500C0021C /* TouchSport.xcdatamodeld */; };
+		811A582720A71AA600C0021C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811A582620A71AA600C0021C /* Assets.xcassets */; };
+		811A582A20A71AA600C0021C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811A582820A71AA600C0021C /* LaunchScreen.storyboard */; };
+		811A583220A730A200C0021C /* SportsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A583120A730A100C0021C /* SportsCollectionViewCell.swift */; };
+		81B602EA20B04D97008C1125 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B602E920B04D97008C1125 /* MyCollectionViewCell.swift */; };
+		81B602EE20B06616008C1125 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B602ED20B06616008C1125 /* InfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		811A581920A71AA500C0021C /* TouchSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811A581C20A71AA500C0021C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		811A581E20A71AA500C0021C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		811A582120A71AA500C0021C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		811A582420A71AA500C0021C /* TouchSport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TouchSport.xcdatamodel; sourceTree = "<group>"; };
+		811A582620A71AA600C0021C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		811A582920A71AA600C0021C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		811A582B20A71AA600C0021C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811A583120A730A100C0021C /* SportsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCollectionViewCell.swift; sourceTree = "<group>"; };
+		81B602E920B04D97008C1125 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		81B602ED20B06616008C1125 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		811A581620A71AA500C0021C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811A581020A71AA500C0021C = {
+			isa = PBXGroup;
+			children = (
+				811A581B20A71AA500C0021C /* TouchSport */,
+				811A581A20A71AA500C0021C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		811A581A20A71AA500C0021C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811A581920A71AA500C0021C /* TouchSport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		811A581B20A71AA500C0021C /* TouchSport */ = {
+			isa = PBXGroup;
+			children = (
+				81B602E920B04D97008C1125 /* MyCollectionViewCell.swift */,
+				811A581C20A71AA500C0021C /* AppDelegate.swift */,
+				811A581E20A71AA500C0021C /* ViewController.swift */,
+				811A582020A71AA500C0021C /* Main.storyboard */,
+				81B602ED20B06616008C1125 /* InfoViewController.swift */,
+				811A583120A730A100C0021C /* SportsCollectionViewCell.swift */,
+				811A582620A71AA600C0021C /* Assets.xcassets */,
+				811A582820A71AA600C0021C /* LaunchScreen.storyboard */,
+				811A582B20A71AA600C0021C /* Info.plist */,
+				811A582320A71AA500C0021C /* TouchSport.xcdatamodeld */,
+			);
+			path = TouchSport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		811A581820A71AA500C0021C /* TouchSport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811A582E20A71AA600C0021C /* Build configuration list for PBXNativeTarget "TouchSport" */;
+			buildPhases = (
+				811A581520A71AA500C0021C /* Sources */,
+				811A581620A71AA500C0021C /* Frameworks */,
+				811A581720A71AA500C0021C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchSport;
+			productName = TouchSport;
+			productReference = 811A581920A71AA500C0021C /* TouchSport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		811A581120A71AA500C0021C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Treinamento;
+				TargetAttributes = {
+					811A581820A71AA500C0021C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 811A581420A71AA500C0021C /* Build configuration list for PBXProject "TouchSport" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 811A581020A71AA500C0021C;
+			productRefGroup = 811A581A20A71AA500C0021C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811A581820A71AA500C0021C /* TouchSport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811A581720A71AA500C0021C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811A582A20A71AA600C0021C /* LaunchScreen.storyboard in Resources */,
+				811A582720A71AA600C0021C /* Assets.xcassets in Resources */,
+				811A582220A71AA500C0021C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		811A581520A71AA500C0021C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811A582520A71AA600C0021C /* TouchSport.xcdatamodeld in Sources */,
+				81B602EA20B04D97008C1125 /* MyCollectionViewCell.swift in Sources */,
+				811A581F20A71AA500C0021C /* ViewController.swift in Sources */,
+				81B602EE20B06616008C1125 /* InfoViewController.swift in Sources */,
+				811A581D20A71AA500C0021C /* AppDelegate.swift in Sources */,
+				811A583220A730A200C0021C /* SportsCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		811A582020A71AA500C0021C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811A582120A71AA500C0021C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		811A582820A71AA600C0021C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811A582920A71AA600C0021C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		811A582C20A71AA600C0021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		811A582D20A71AA600C0021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		811A582F20A71AA600C0021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KT4PK7ZG8;
+				INFOPLIST_FILE = TouchSport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.TouchSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		811A583020A71AA600C0021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KT4PK7ZG8;
+				INFOPLIST_FILE = TouchSport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.TouchSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		811A581420A71AA500C0021C /* Build configuration list for PBXProject "TouchSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811A582C20A71AA600C0021C /* Debug */,
+				811A582D20A71AA600C0021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811A582E20A71AA600C0021C /* Build configuration list for PBXNativeTarget "TouchSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811A582F20A71AA600C0021C /* Debug */,
+				811A583020A71AA600C0021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		811A582320A71AA500C0021C /* TouchSport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				811A582420A71AA500C0021C /* TouchSport.xcdatamodel */,
+			);
+			currentVersion = 811A582420A71AA500C0021C /* TouchSport.xcdatamodel */;
+			path = TouchSport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 811A581120A71AA500C0021C /* Project object */;
+}
